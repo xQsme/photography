@@ -1,0 +1,257 @@
+body {
+    background: rgb(35,35,35);
+    margin-top: 50px;
+}
+
+.navbar {
+    background-color: rgb(50, 50, 50);
+    border-color: rgb(70, 70, 70);
+    margin:0;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: rgb(180, 180, 180);
+}
+
+.navbar-default .navbar-nav > .open > a:focus {
+    background-color: rgb(30, 30, 30);
+}
+
+.navbar-default .navbar-nav>.open>a{
+    background-color: rgb(70,70,70);
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover{
+    color: rgb(190,190,190);
+}
+
+.dropdown-menu {
+    background-color: rgba(50, 50, 50, 0.7);
+}
+
+.dropdown-menu > li > a:hover {
+    background-color: rgba(128, 128, 128, 0.4);
+}
+
+.dropdown > ul > li > a{
+    color: rgb(190, 190, 190)
+}
+
+.dropdown > ul > li > a:hover{
+    color: rgb(190, 190, 190);
+}
+
+.panel-default{
+    background-color: rgb(50, 50, 50);
+}
+
+.panel-default > .panel-heading{
+    background-color: rgb(50, 50, 50);
+    color: rgb(180, 180, 180);
+}
+
+input[type="text"], input[type="password"], input[type="file"], textarea.form-control{
+    background-color: rgb(50, 50, 50);
+    color: rgb(180, 180, 180);
+}
+
+label{
+    color: rgb(180, 180, 180);
+}
+
+h2, h3{
+    color: rgb(150, 150, 150);
+}
+
+h3{
+    font-size: 16px;
+}
+
+#delete{
+    position: absolute;
+}
+
+#image{
+    border: 3px solid gray;
+}
+
+a{
+    color: rgb(150, 150, 150);
+}
+
+a:hover{
+    color: rgb(180, 180, 180);
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+
+.horizontal{
+    width: 32%;
+}
+
+.vertical{
+    width: 15.1%;
+}
+
+#logo{
+    width: 50px;
+}
+
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    height: 13px;
+    width: 13px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 4s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .6}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .6}
+    to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+}
+
+#separator{
+    margin-bottom: 20px;
+}
+
+.sobre{
+    width:50%;
+    margin-bottom: 15px;
+}
+
+#mail{
+    width:28%;
+}
+
+#facebook{
+    width:22%;
+}
+
+#tlm{
+    width:50%;
+    margin-left: 25%
+}
+
+@media all and (orientation: portrait) {
+    .col-xs-3{
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    footer>.col-xs-3>a{
+        font-size: 10px;
+    }
+
+    #image{
+        border: 2px solid gray;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .vertical{
+        width: 48.3% !important;
+    }
+
+    #separator{
+        margin-bottom: 0;
+    }
+
+    #sobre{
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    #sobre > h3{
+        font-size: 13px;
+    }
+
+    .sobre{
+        width:70%;
+    }
+
+    #home{
+        width:80%;
+        margin-left: 10%
+    }
+
+    #mail{
+        width:59%;
+        text-align: left;
+    }
+
+    #facebook{
+        width:41%;
+    }
+
+    #logo{
+        width: 40px;
+    }
+}
